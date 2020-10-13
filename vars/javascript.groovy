@@ -1,6 +1,6 @@
 def call(Map config=[:], Closure body) {
     node {
-        git url: "https://github.com/werne2j/sample-nodejs"
+        git url: "https://github.com/rxa80330/jenkins-shared-libraries.git"
         stage("Install") {
             bat "npm install"
         }
