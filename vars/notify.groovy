@@ -1,3 +1,4 @@
+import com.cloudbees.hudson.plugins.modeling.*
 import org.example.Constants
 def call(Map config=[:]) {
     if (config.type == "slack") {
